@@ -23,4 +23,5 @@ In this repo, MATLAB codes are provided to:
 
 
 # References
- [1] Dhulipala, S. L., & Flint, M. M. (2020). Series of semi-Markov processes to model infrastructure resilience under multihazards. *Reliability Engineering & System Safety*, 193, 106659.
+ [1] Dhulipala, S. L. N. & Flint, M. M. (2020). Series of semi-Markov processes to model infrastructure resilience under multihazards. *Reliability Engineering & System Safety*, 193, 106659.
+ [2] Dhulipala, S. L. N., Burton, H. V. & Baroud, H. (2020). A Markov framework for generalized post-event systems recovery modeling: From single to multihazards. [Under review].
