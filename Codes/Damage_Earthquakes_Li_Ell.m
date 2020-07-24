@@ -1,11 +1,19 @@
 function [P_req] = Damage_Earthquakes_Li_Ell(IM, flag)
 
+% DESCRIPTION: Computes the damage functions for the wooden building under earthquakes.
+
+% INPUTS:
+% IM = Sa(0.2s) intensity in g (scalar or vector)
 % flag = 1 => Exceedence Probabilities
 % flag = 0 => Equivalence Probabilities
 
+% OUTPUTS:
+% P_req = Damage functions for different IM levels. The four rows correspond to the
+% four damage states, none, light, moderate, and severe.
+
 IM = round(IM, 2);
 
-load('/Users/som/Documents/MATLAB/Li_Ellingwood_Eart.mat');
+load('Li_Ellingwood_Eart.mat');
 
 Sa = round(Sa, 2);
 

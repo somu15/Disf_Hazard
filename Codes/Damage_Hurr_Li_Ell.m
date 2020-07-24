@@ -1,11 +1,20 @@
 function [P_req] = Damage_Hurr_Li_Ell(IM, flag)
 
+% DESCRIPTION: Computes the damage functions for the wooden building under hurricane
+% winds.
+
+% INPUTS:
+% IM = Wind intensity in m/s (scalar or vector)
 % flag = 1 => Exceedence Probabilities
 % flag = 0 => Equivalence Probabilities
 
+% OUTPUTS:
+% P_req = Damage functions for different IM levels. The four rows correspond to the
+% four damage states, none, light, moderate, and severe.
+
 IM = round(IM,2);
 
-load('/Users/som/Documents/MATLAB/Li_Ellingwood_Hurr.mat');
+load('Li_Ellingwood_Hurr.mat');
 
 wind = round(wind,2);
 
