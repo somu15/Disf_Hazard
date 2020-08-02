@@ -19,7 +19,7 @@ In this repo, MATLAB codes are provided to:
 * Simulate functionality recovery curves for multihazards with temporal interdependencies.
 * Convert functionality recovery curves to the Disfunctionality hazard.
 
-# Contents
+# Repo contents
 
 * [Damage_Earthquakes_Li_Ell.m](https://github.com/somu15/Disf_Hazard/blob/devel/Codes/Damage_Earthquakes_Li_Ell.m) and [Damage_Hurr_Li_Ell.m](https://github.com/somu15/Disf_Hazard/blob/devel/Codes/Damage_Hurr_Li_Ell.m) compute the damage functions
 for the wooden building.
